@@ -13,12 +13,12 @@ unofficial x11 support for the devices tobii is4 (4c).
 # ToDo
 - [x] Read device data
 - [x] Create and move shape
-- [x] Multi monitor support to 
+- [x] Multi monitor support
 - [x] Add configuration file support
 - [x] Emulate head detection if the device doesnt support
 - [-] Create the systemd and sysvinit files
 - [ ] Add multi distro support (configuration file)
-- [ ] Allow to configure the gazhttps://github.com/Eitol/tobii_eye_tracker_linux_installere shape
+- [ ] Allow to configure the gaze shape
 
 ###Warning: experimental
 Tested in: Ubuntu 18.10 x86_64 Cinnamon. Tobii 4C
