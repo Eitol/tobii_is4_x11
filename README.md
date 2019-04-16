@@ -1,6 +1,29 @@
 unofficial x11 support for the devices tobii is4 (4c).
 
-##### Install all deps
+####Configure;
+The config is saved in /etc/tobii.cfg
+
+You must put the name of the screen in this file:
+
+Example:
+
+screen="HDMI-1-2"
+
+you can get the name of the screen with the command:
+
+xrandr --listmonitors
+
+Example out:
+
+Monitors: 2
+
+ 0: +*eDP-1-1 1920/344x1080/193+0+504  eDP-1-1
+ 
+ 1: +HDMI-1-2 2560/621x1440/341+1920+0  HDMI-1-2
+
+In my case the device is attached to the left screen (HDMI-1-2)
+
+#### Install all deps
 
 1 - Install the driver: https://github.com/Eitol/tobii_eye_tracker_linux_installer
 
