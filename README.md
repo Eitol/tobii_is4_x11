@@ -1,6 +1,7 @@
 unofficial x11 support for the devices tobii is4 (4c).
 
-####Configure;
+#### Configure
+
 The config is saved in /etc/tobii.cfg
 
 You must put the name of the screen in this file:
@@ -17,11 +18,11 @@ Example out:
 
 Monitors: 2
 
- 0: +*eDP-1-1 1920/344x1080/193+0+504  eDP-1-1
+ 0: +*eDP-1-1 1920/344x1080/193+0+504  eDP-1-1 
  
  1: +HDMI-1-2 2560/621x1440/341+1920+0  HDMI-1-2
-
-In my case the device is attached to the left screen (HDMI-1-2)
+ 
+In my case the device is attached to the right screen (HDMI-1-2)
 
 #### Install all deps
 
@@ -29,7 +30,7 @@ In my case the device is attached to the left screen (HDMI-1-2)
 
 2- Install deps:  sudo bash ./install.sh
 
-####Demostration video:
+#### Demostration video:
 [![Demostration video](https://img.youtube.com/vi/3wzgTG9CGRw/maxresdefault.jpg)](https://youtu.be/3wzgTG9CGRw)
 
 
