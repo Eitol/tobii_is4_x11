@@ -20,7 +20,8 @@ unofficial x11 support for the devices tobii is4 (4c).
 - [ ] Add multi distro support (configuration file)
 - [ ] Allow to configure the gazhttps://github.com/Eitol/tobii_eye_tracker_linux_installere shape
 
-### Warning: experimental
+###Warning: experimental
+Tested in: Ubuntu 18.10 x86_64 Cinnamon. Tobii 4C
 
 Note: Tobii is a registered trademark.
 This software does not have any relation with the company
