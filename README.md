@@ -1,4 +1,4 @@
-unofficial x11 support for the devices tobii is4 (4c).
+unofficial x11 support for the devices tobii is4 (4c). (abandoned and incomplete project)
 
 #### Configure
 
